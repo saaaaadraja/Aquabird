@@ -1,0 +1,1043 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: white;
+    user-select: none;
+}
+.bg-body-tertiary{
+background: #1E1EC1 !important;
+border: 1px solid #707070;
+height: 5vw;
+}
+.nav-link{
+    color: white !important;
+}
+.btn{
+    background: #00D1F9 !important;
+    height: 2.2rem;
+    width: 2.2rem;
+    --bs-btn-padding-y:0 !important;
+    --bs-btn-padding-x:0 !important;
+    border: none;
+}
+.home-intro{
+    background: url(../images/Banner1.png) no-repeat center/100% 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.order-btn{
+    background: #BE2323;
+    color: white;
+    font-size: 2rem;
+    border-radius: 9px;
+    font-weight: bold;
+    padding: 0 0.5rem;
+}
+button,a{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.intro-txt{
+    padding: 13vw 0;
+
+}
+.quality-card{
+    background: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7) !important;
+    border-radius: 9px;
+    position: relative;
+    top: -5vw;
+}
+.quality-card>h5{
+    color: #252525;
+}
+.card-grid{
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    gap: 2.6%;
+}
+.card-sub-heading{
+    color: #252525;
+    font-size: 14px;
+    margin-top: 1vw;
+}
+.card-txt{
+    color: #737373;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+.w-85{
+    width: 85% !important;
+}
+.products-sect{
+    background: url(../images/Stroke_Delivery1.png) no-repeat center/100% 100%;
+}
+.sect-head{
+    color:#252525;
+}
+.para-prod{
+    color: #737373;
+    font-size: 14px;
+}
+.carousel-inner{
+    display: grid;
+    grid-template-columns: 33.3% 33.4% 33.3%;
+}
+.bottle-disc{
+    color: #252525;
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: 7vw;
+    overflow: auto;
+    max-height: 12vw;
+}
+.stars{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin-top:-1vw ;
+}
+.review-txt{
+    color: #737373;
+    font-size: 10px;
+    margin: 0.3vw 0 0.4vw;
+}
+.detail-review-txt{
+    margin-top: -0.07vw;
+    margin-left: 0.1vw;
+    color: #737373;
+    font-size: 10px;
+}
+.price-txt{
+    font-size:15px;
+    font-weight: bold;
+    color: #BE2323;
+}
+.add-to-cart-btn{
+    background: #00D1F9;
+    color: white;
+    font-size: 12px;
+    border-radius: 20px;
+    width: 40% ;
+    position: relative;
+    top: 1vw;
+}
+.detail-add-to-cart-btn{
+    background: #00D1F9;
+    color: white;
+    font-size: 10px;
+    border-radius: 20px;
+    width: 40% ;
+    position: relative;
+    top: 1vw;
+}
+.proceed-to-checkout-btn{
+    background: #00D1F9;
+    color: white;
+    font-size: 14px;
+    border-radius: 20px;
+    width: 40% ;
+    position: relative;
+    top: 1vw;
+}
+.add-to-cart-btn.active{
+    background: #1E1EC1;
+}
+.slide{
+    background: white;
+    box-shadow: 0px 0px 15px #00000023;
+    border-radius: 15px;
+}
+.slide1{
+    background: white;
+    box-shadow: 0px 0px 15px #00000023;
+    border-radius: 45px; 
+    border: 3px solid #1E1EC1;
+}
+.rotate-180{
+    transform: rotate(180deg);
+}
+.arrow-btn{
+    width: 2vw;
+    padding: 0.5vw 0.7vw;
+    background: #00D1F9;
+    border-radius: 33px;
+}
+.arrow-btn:hover{
+    background:#1E1EC1 ;
+}
+.w-30{
+    width: 30% !important;
+}
+.w-60{
+    width: 60% !important;
+}
+.w-70{
+    width: 70% !important;
+}
+.minral-detail{
+    display: grid;
+    grid-template-columns: 33.3% 33.4% 33.3%;
+}
+.text-left{
+    text-align: left !important;
+}
+.text-right{
+    text-align: right !important;
+}
+.mineral-heading{
+    color: #1E1EC1;
+    margin-bottom: 0;
+}
+.sub-heading{
+    color: #00D1F9;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.mineral-detail{
+    color: #737373;
+    font-size: 13px;
+}
+.order-sect{
+    background: url(../images/Stroke_Delivery.png) no-repeat center/100% 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.form-check-input:checked{
+    background-color: #00D1F9;
+    border-color:#00D1F9 ;
+}
+.quantity-txt{
+    border-radius: 15px;
+    background: white;
+    margin-left:2vw ;
+    padding: 0.2vw 4vw;
+    display: inline-block;
+    position: relative;
+ 
+}
+.minus-btn{
+    position: absolute;
+    left: 8px;
+    background: none;
+}
+.pluss-btn{
+    position: absolute;
+    right: 8px;
+    background: none;
+}
+.minus-btn:hover,
+.pluss-btn:hover{
+    color: #1E1EC1;
+}
+.input-field{
+    background: white;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-radius: 25px;
+    padding: 1vw 2vw;
+}
+.login-input-field{
+    background: #e8f0fe;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-radius: 25px;
+    padding: 1vw;
+    /* color: white; */
+}
+.dropdown-input-field{
+    background: #e8f0fe;
+    border: 1px solid gray;
+    outline: none;
+    box-shadow: none;
+    border-radius: 25px;
+    padding: 0.5vw;
+}
+.checkout-input-field{
+    border: 1px solid #D4D4D4;
+    background: white;
+    border-radius: 25px;
+    padding: 0.2vw 1vw;
+}
+.contact-input-field{
+    background: #F0F0F0;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-radius: 25px;
+    padding: 1vw 2vw;
+}
+.w-90{
+    width: 90% !important;
+}
+.w-95{
+    width: 95% !important;
+}
+.w-20{
+    width: 20% !important;
+}
+.place-order-btn{
+    background: #00D1F9;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 1.2vw;
+    border-radius: 20px;
+    padding: 0.8vw 1vw;
+}
+.order-bottle-sect{
+    padding: 15vw 0;
+}
+.client-img{
+    position: relative;
+    top: -3vw;
+    left: -29vw;
+    border: 2px solid #1E1EC1;
+
+}
+.mt--2{
+    margin-top: -2vw !important;
+}
+.mt--7{
+    margin-top: -7vw !important;
+}
+.clien-name{
+    color: #1E1EC1;
+    text-align: center;
+    margin-top: 1vw;
+}
+.footer{
+    background: url(../images/Footer_Stroke.png) center/100% 100% no-repeat;
+    margin-top: 10vw;
+    padding-top: 16vw !important ;
+}
+.footer-txt{
+    color: #1E1EC1;
+    font-size: 15px ;
+    font-weight: bold;
+    padding-top: 18px;
+}
+.num-txt{
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 0.2vw;
+    color: #1E1EC1;
+}
+.contact-txt{
+    padding: 0.35vw 0;
+    background: white;
+    border-radius: 20px;
+}
+.footer-logo-txt{
+font-size: 10px;
+}
+.footer-newsletter-txt{
+    color: #1E1EC1;
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 0.5vw;
+}
+.subscribe-email{
+    box-shadow: -4px 4px 2px #00000017;
+    background-color: white;
+    border-radius: 20px;
+    width: 75%;
+    padding: 0 0 0 10px;
+    font-size: 15px;
+}
+.sub-btn{
+    border-radius: 20px;
+    border-radius: 20px;
+    padding: 0.2vw 0.95vw 0.5vw;
+background: #1E1EC1;
+color: white;
+}
+.email-input-field{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-radius: 20px;
+    padding-left: 0.1vw;
+}
+.email-input-field::placeholder{
+    font-size: 10px;
+    padding-left: 1vw;
+}
+.footer-last{
+    background: #1E1EC1;
+    padding: 2vw 0 0.5vw;
+    margin-top: 4vw;
+}
+.rights-txt{
+    font-size: 10px;
+    /* font-weight: bold; */
+    color: white;
+}
+.h-1{
+    height: 1% !important;
+}
+.w-5{
+    width: 5% !important;
+}
+.w-1{
+    width: 1% !important;
+}
+.w-11{
+    width: 11% !important;
+}
+.about-txt{
+    color: #737373;
+    font-size: 14px;
+    text-align: center;
+    width: 25%;
+    margin: auto;
+}
+.page-head{
+    background: url(../images/Stroke_Delivery1.png) no-repeat center/100% 100%;
+    padding: 10vw 0;
+    margin-top: -5vw !important;
+}
+.main-head{
+    color: #1E1EC1;
+}
+.about-us-txt{
+    font-size: 14px;
+    color: #737373;
+    width: 65%;
+}
+.reverse-txt{
+    font-size: 13px;
+    width: 50%;
+
+}
+.mt-10{
+    margin-top: 10vw !important;
+}
+.mt-6{
+    margin-top: 6vw !important;
+}
+.mb-10{
+    margin-bottom: 10vw !important;
+}
+.pb-10{
+    padding-bottom: 10vw !important;
+}
+.contact-form-btn{
+    border-radius: 20px;
+    background: #00D1F9;
+    color: white;
+}
+.contact-check-label{
+    color: #1E1EC1;
+    font-size: 11px;
+    text-transform: capitalize;
+}
+.mb--10{
+    margin-bottom: -10vw !important;
+}
+.detail-img{
+    padding: 3.5vw 0;
+    /* box-shadow: 2px 2px 5px #00000013; */
+    border: 1px solid #70707042;
+    border-radius: 15px;
+}
+.w-40{
+    width: 40% !important;
+}
+.product-status{
+    background: #1E1EC1;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 0.3vw 0;
+    margin-top: -0.7vw;
+}
+.detail-txt{
+    color: #737373;
+    font-size: 12px;
+    padding: 0;
+}
+.navbar-brand{
+    width: 28% !important;
+}
+
+.ml--2{
+    margin-left: -2vw !important;
+}
+.detail-quantity-txt{
+    border-radius: 15px;
+    background: white;
+    margin-left: 1vw;
+    padding: 0vw 0.5vw;
+    display: inline-block;
+    position: relative;
+    font-size: 12px;
+    font-weight: 500 !important;
+}
+.quantity{
+    font-size: 14px;
+    font-weight: bold;
+}
+.w-15{
+    width: 15% !important;
+}
+.w-10{
+    width: 10% !important;
+}
+.w-35{
+width: 35% !important;
+}
+
+.pl-0{
+    padding-left: 0 !important;
+}
+.detail-btns{
+    background: none;
+    border: 1px solid #B8B8B8;
+    border-radius: 20px;
+    padding: 0.5vw 1vw;
+    font-size: 14px;
+}
+.detail-btns.active{
+    background: #1E1EC1;
+    color: white;
+}
+.ml-1{
+    margin-left: 1vw !important;
+}
+.details-div{
+    font-size: 13px;
+}
+.font-weight-bold{
+    font-weight: bold !important;
+}
+.details-div.active{
+    display: block !important;
+}
+.related-prods-head{
+    color: #252525;
+    text-align: center;
+}
+.related-prods-txt{
+    color: #737373;
+    text-align: center;
+    font-size: 12px;
+}
+.w-80{
+    width: 80% !important;
+}
+.order-head-txt{
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.head-row{
+    border: 1px solid #C9C9C9;
+    border-radius: 20px;
+    padding: 0.8vw 0;
+    text-align: center;
+}
+.item-img-div{
+    border: 1px solid #C9C9C9;
+    border-radius: 5px;
+}
+.item-name{
+    font-size: 12px;
+    font-weight: bold;
+}
+.item-price{
+    font-size: 10px;
+    color: #252525;
+}
+.item-remove{
+    font-size: 12px;
+    color: #C9C9C9;
+    background: none;
+}
+.item-remove:hover{
+    color: #BE2323;
+}
+.data-row{
+    border-bottom: 2px solid #E2E2E2;
+    padding-bottom: 2vw;
+}
+.pl-2{
+    padding-left: 2vw !important;
+}
+.pr-2{
+    padding-right: 2vw !important;
+}
+.subtotal-head-txt{
+    font-size: 12px;
+    color: #1E1EC1;
+    border-bottom: 1px solid #E2E2E2;
+    padding-bottom: 0.5vw;
+}
+.total-head-txt{
+    font-size: 12px;
+    color: #252525;
+    border-top: 1px solid #E2E2E2;
+    padding-top: 0.5vw;
+}
+.pr-0{
+    padding-right: 0;
+}
+.pb-1{
+    padding-bottom: 1vw !important;
+}
+.shipping-head{
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 1.3vw;
+}
+.shipping-form-label{
+    color: #737373;
+    font-size: 11px;
+    text-transform: capitalize;
+}
+.shipping-radio-input{
+    width: 0.9rem !important;
+    height: 0.9rem !important;
+    margin-top: 0.5vw;
+    padding-left: 1vw !important;
+}
+.pl-3{
+    padding-left: 3vw !important;
+}
+.mb-0{
+    margin-bottom: 0 !important;
+}
+.total-card{
+    border: 1px solid #D4D4D4;
+    border-radius: 20px;
+    padding: 2vw 1vw;
+}
+
+.checkout-field-label{
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 0.5vw;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.login-field-label{
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 0.5vw;
+  text-transform: capitalize;
+}
+.important-star{
+    color: #BE2323;
+    margin-left: 0.5vw;
+}
+.clr-head{
+    color: #1E1EC1;
+    margin-left: 1vw;
+}
+.tabl-head {
+    font-size: 10px;
+    font-weight: bold;
+}
+.tabl-body{
+    font-size: 10px;
+    color: #737373;
+}
+.row-b-b{
+    border-bottom: 1px solid #E2E2E2;
+    padding-bottom: 0.5vw;
+}
+.checkout-outer-row{
+    border: 1px solid #E2E2E2;
+    border-radius: 25px;
+}
+.checkout-right-col{
+    border-left: 1px solid #E2E2E2;
+    padding: 4vw;
+
+}
+.checkout-left-col{
+    padding: 4vw;
+}
+a{
+    text-decoration: none;
+}
+
+.displayFade {
+ animation: fadeIn 0.2s;
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  .mySlides.active{
+    display: block;
+  }
+ .btn-disabled{
+    filter: grayscale(1);
+ }
+ li{
+    margin-bottom: 3px;
+ }
+ ul,ol{
+    padding-left:1rem !important ;
+ }
+ .nav-link{
+padding: 0 !important;
+padding-bottom: 0.5rem;
+ }
+ .nav-link.active{
+    animation-name: anim;
+    animation-duration: 1.5s;
+    border-bottom: 1.5px solid yellow;
+    color: yellow !important;
+ }
+ .nav-link:hover{
+    color: yellow !important;
+ }
+ @keyframes anim{
+from{
+    border-bottom: 1px solid rgba(255, 255, 0, 0.178);
+}
+to{
+    border-bottom: 1px solid yellow;
+}
+ }
+ .socialLinks:hover{
+    cursor: pointer;
+    background: #7bd9f5;
+    border-radius: 6px;
+ }
+ .privacyLink:hover{
+    cursor: pointer;
+    color: #00D1F9;
+ }
+ .react-tel-input .form-control{
+    width: 95%;
+    border-radius: 20px;
+ }
+ .checkout-input-field {
+font-size: 13px !important;
+ }
+ h4{
+    font-size: 18px !important;
+ }
+ .w-97{
+    width: 96.5% !important;
+ }
+ /* .h-100{
+    height: 100vh !important;
+ } */
+
+
+ @keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .loading-spinner {
+    margin: auto;
+    margin-top: 5rem !important;
+    width: 50px;
+    height: 50px;
+    border: 10px solid #f3f3f3; /* Light grey */
+    border-top: 10px solid #7bd9f5; /* Black */
+    border-radius: 50%;
+    animation: spinner 0.8s linear infinite;
+  }
+  button{
+    background: none;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+  }
+  .text-white{
+    color: white;
+  }
+  .text-red{
+    color: red;
+  }
+  .txt-dots{
+        white-space: nowrap; 
+        width: 30%; 
+        overflow: hidden;
+        text-overflow: ellipsis; 
+  }
+  .w-65{
+    width: 65% !important;
+  }
+  .h-50{
+    height: 9.5rem !important;
+  }
+  .subscriptionTxt{
+    font-size: 15px ;
+    font-weight: bold;
+  }
+  .alert-txt{
+    font-size: 12px;
+  }
+  .cart-cout-bg{
+    background: #fd0000;
+    border-radius: 50%;
+    height: 1vw;
+    right: -2px;
+    text-align: center;
+    top: -3px;
+    width: 1vw;
+  }
+ .order-id{
+        -webkit-user-select: all;  
+        -moz-user-select: all;     
+        -ms-user-select: all;      
+        user-select: all;       
+ }
+ .mt-5rem{
+    margin-top: 5rem !important;
+ }
+
+.socialLinksFloating{
+    width: 6% !important;
+    border-radius: 9px;
+    text-align: center;
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    z-index: 10;
+    /* background: white; */
+}
+.rotate-180{
+    transform: rotate(0deg) ;
+}
+.about-sec1-text{
+    text-align: left !important;
+}
+@media screen and (max-width: 1200px) {
+    .about-sec1-text{
+        text-align: center !important;
+    }
+}
+ @media only screen and (max-width: 990px) {
+   .pb-10{
+    padding-bottom: 1vw !important;
+   }
+    .rotate-180{
+        transform: rotate(180deg) !important;
+    }
+    .footer-logo{
+        text-align: center;
+    }
+    .subscribe-email{  
+     margin: auto;
+     width: 50%;
+     font-size: 12px;
+    }
+ 
+    .navbar-toggler{
+        position: absolute;
+        top: 0.5vw;
+        right: 2vw;
+        z-index: 10;
+    }
+    .navbar-collapse{
+        background: #307bbf;
+        position: absolute;
+        top: 4.7vw;
+        right: 0vw;
+        width: 100%;
+        z-index: 5;
+        padding: 0vw 5vw 1vw;
+    }
+    .navbar-nav-scroll{
+        max-height: 100% !important;
+        padding: 2vw 0;
+    }
+    .navbar-brand>img{
+        margin-top: -9.5vw !important;
+        width: 90% !important;
+    }
+    .bg-body-tertiary {
+        height: 7vw;
+    }
+    .card-grid{
+        width: 100% !important;
+    }
+    .para-prod{
+        width: 80% !important;
+        font-size: 12px !important;
+    }
+    .carousel-dark{
+/* width: 85% !important; */
+margin-top: 5vw !important;
+    }
+    /* .client-img {
+        left: -19vw;
+        top: -5vw;
+    } */
+    .carousel-control-next,
+    .carousel-control-prev{
+top:13vw !important;
+    }
+    .arrow-btn {
+        background:#1E1EC1 ;
+    }
+    .arrow-btn:hover{
+        background: #00D1F9;
+    }
+    }
+
+    @media only screen and (max-width: 800px) {
+        .subscribe-email{  
+            width: 80%;
+            font-size: 13px;
+           }
+        .carousel-dark{
+            margin-top: 0 !important;
+                }
+                .footer{
+                    margin-top: 20vw;
+                }
+        .image-top{
+            width: 100%;
+            display: block !important;
+        }
+        .bg-body-tertiary {
+            height: 7vw;
+        }
+        .home-intro {
+            background: none ;
+            display: grid;
+            grid-template-columns: 100%;
+        }
+        .intro-txt{
+            padding-top: 5vw;
+        }
+        .navbar-brand>img{
+            margin-top: -9.5vw !important;
+            width: 90%;
+        }
+        .quantity-card{
+            width: 65% !important;
+        }
+        .quantity-txt{
+            width: 50% !important;;
+           }
+        .order-sect {
+            background: url(../images/Stroke_Delivery1.png) no-repeat center/100% 100%;
+            display: grid;
+           width: 100% !important;
+           grid-template-columns: 100%;
+           margin: auto;
+        }
+        .place-order-btn{
+            margin: auto !important;
+            padding: 1vw;
+        }
+        .minral-detail{
+            display: block !important;
+        }
+        .right-text{
+text-align: left !important;
+        }
+    }
+    @media screen and (max-width: 770px){
+        .w-1{
+            width: 8% !important;
+        }
+        .mt-sm-1{
+            margin-top: 1rem;
+        }
+        .contact-txt{
+            margin-left: 0 !important;
+            margin: auto !important;
+            margin-top: 1rem !important;
+        }
+        .subscribe-email{  
+            width: 90%;
+            font-size: 13px;
+           }
+    }
+    @media only screen and (max-width: 650px) {
+        .card-sub-heading {
+            font-size: 10px;
+        }
+        .card-txt {
+            font-size: 9px;
+        }
+        .image-top{
+            width: 100%;
+            display: block !important;
+        }
+        .bg-body-tertiary {
+            height: 9vw;
+        }
+        .intro-txt{
+            width: 90% !important;
+        }
+        .navbar-brand>img{
+            margin-top: -8vw !important;
+            width: 90%;
+        }
+        .quantity-card{
+            width: 80% !important;
+        }
+    }
+    @media only screen and (max-width: 470px) {
+        .bottle-disc{
+font-size: 3vw !important;
+max-height: 28vw !important;
+margin-top: -17vw !important; 
+        }
+        .w-20{
+            width: 30% !important;
+        }
+        .w-90
+        {
+            width: 95% !important;
+        }
+        .image-top{
+            width: 100%;
+            display: block !important;
+        }
+        .bg-body-tertiary {
+            height: 13vw;
+        }
+        .navbar-brand>img{
+            margin-top: -8vw !important;
+            width: 90%;
+        }
+        .quantity-card{
+            width: 95% !important;
+            gap: 1% !important;
+        }
+        .para-prod{
+            width: 90% !important;
+        }
+        
+        .order-bottle-sect{
+            width: 90% !important;
+        }
+        .place-order-btn{
+width: 30% !important;
+        }
+        .subscribe-email{  
+            width: 110%;
+            font-size: 12px;
+           }
+    }
+
+    .contact-footer{
+        margin: auto;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 60% 18%;
+    }
+    .input-padding{
+        padding: 0.5rem 0.2rem !important;
+    }
